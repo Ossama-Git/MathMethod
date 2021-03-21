@@ -5,14 +5,14 @@ obj = [1, 2]
 # left side coeficients of the inequity constraints
 lhs_ineq = [
     [1, 0],
-    [2, 1],
+    [-2, -1],
     [1, 1],
     [1, -1]
 ]
 # right sides of the inequity constraints
 rhs_ineq = [
     8,
-    6,
+    -6,
     10,
     1
 ]
