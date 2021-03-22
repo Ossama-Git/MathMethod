@@ -4,7 +4,7 @@ from scipy.optimize import linprog
 obj = [1, 2]
 # left side coeficients of the inequity constraints
 lhs_ineq = [
-    [1, 0],
+    [0, 1],
     [-2, -1],
     [1, 1],
     [1, -1]
